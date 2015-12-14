@@ -546,6 +546,7 @@ document.addEventListener('DOMContentLoaded', function() {
       elem.style.top = top + 'px';
       
       if(top <= window.innerHeight) {
+//          Only add images that inside viewport
           document.querySelector("#movingPizzas1").appendChild(elem);
       } else {
           break;
